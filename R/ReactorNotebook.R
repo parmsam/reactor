@@ -79,7 +79,7 @@ ReactorNotebook <- R6Class("ReactorNotebook",
         ggplot2:::.store$set(NULL)
         
         svgPath <- paste0(file.path(self$static_dir, cell$id), ".svg")
-        svg(filename = svgPath)
+        svglite::svglite(filename = svgPath)
         dev.control(displaylist = "enable")
       }
       
