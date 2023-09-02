@@ -132,3 +132,6 @@ Reactor is inspired by [Observable](http://observablehq.com), which provides a s
   - [x] text
   - [ ] textarea
   
+## Troubleshooting
+
+You will need to ensure that some other process is not sitting on port 5000. On Macbooks, port 5000 may be taken up by Airplay functionality and require turning off Airplay Receiver in order to open the port.
